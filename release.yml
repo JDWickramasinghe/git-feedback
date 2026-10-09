@@ -2,3 +2,10 @@ name: test
 on:
   push:
     banches: [main]
+
+jobs:
+  build:
+    runs on: ubuntu-latest
+    steps: 
+      -name: AmIreallysupposedtoAddAName
+          run: echo "uba hena kathai bn"
